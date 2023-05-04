@@ -9,22 +9,52 @@
         background: whitesmoke;
         font-family: Georgia, 'Times New Roman', Times, serif;
 
-
     }
     
     img {
-        height: auto;
-        width: auto;
-        max-height: 200px;
-        max-height: 200px;
+        height: 300px;
+        width: 500px;
+       
+        margin: 30px 30px;
     }
-.class {
-    background-color: aquamarine;
-    height: 500px;
+
+#header {
+    background: yellowgreen;
     width: 500px;
+    overflow: hidden;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
 
 }
-div main {
+ 
+#nav {
+  
+    background: yellow;
+    width: 500px;
+    overflow: hidden;
+    margin: 30px;
+}
+#titulo1 {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 170px;
+    background: yellowgreen;
+}
+
+#titulo2 {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    width: 60px;
+    background: #7a7ad1;
+}
+
+#piedepagina {
     padding: 0px 10px;
+    width: 500px;
+    background: yellowgreen;
+    margin: 30px;
 
 }
